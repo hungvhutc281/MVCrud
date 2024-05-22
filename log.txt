@@ -1,0 +1,971 @@
+2024-04-12 21:10:18.011 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-12 21:10:18.087 +07:00 [DBG] Hosting starting
+2024-04-12 21:10:18.313 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-12 21:10:18.389 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-12 21:10:18.392 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-12 21:10:18.392 +07:00 [DBG] Loaded hosting startup assembly YTB_API
+2024-04-12 21:10:18.392 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-12 21:10:18.392 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-12 21:10:18.396 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 21:10:18.399 +07:00 [INF] Hosting environment: Development
+2024-04-12 21:10:18.401 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-12 21:10:18.402 +07:00 [DBG] Hosting started
+2024-04-12 21:10:18.724 +07:00 [DBG] Connection id "0HN2QV94AA5FK" accepted.
+2024-04-12 21:10:18.724 +07:00 [DBG] Connection id "0HN2QV94AA5FL" accepted.
+2024-04-12 21:10:18.724 +07:00 [DBG] Connection id "0HN2QV94AA5FL" received FIN.
+2024-04-12 21:10:18.724 +07:00 [DBG] Connection id "0HN2QV94AA5FK" received FIN.
+2024-04-12 21:10:18.726 +07:00 [DBG] Connection id "0HN2QV94AA5FK" started.
+2024-04-12 21:10:18.726 +07:00 [DBG] Connection id "0HN2QV94AA5FL" started.
+2024-04-12 21:10:18.754 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-12 21:10:18.754 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-12 21:10:18.802 +07:00 [DBG] Connection id "0HN2QV94AA5FL" stopped.
+2024-04-12 21:10:18.802 +07:00 [DBG] Connection id "0HN2QV94AA5FK" stopped.
+2024-04-12 21:10:18.805 +07:00 [DBG] Connection id "0HN2QV94AA5FL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-12 21:10:18.805 +07:00 [DBG] Connection id "0HN2QV94AA5FK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-12 21:10:22.411 +07:00 [DBG] Connection id "0HN2QV94AA5FM" accepted.
+2024-04-12 21:10:22.412 +07:00 [DBG] Connection id "0HN2QV94AA5FM" started.
+2024-04-12 21:10:22.439 +07:00 [DBG] Connection id "0HN2QV94AA5FM" received FIN.
+2024-04-12 21:10:22.440 +07:00 [DBG] Connection id "0HN2QV94AA5FN" accepted.
+2024-04-12 21:10:22.440 +07:00 [DBG] Connection id "0HN2QV94AA5FN" started.
+2024-04-12 21:10:22.442 +07:00 [DBG] Connection id "0HN2QV94AA5FN" received FIN.
+2024-04-12 21:10:22.443 +07:00 [DBG] Connection id "0HN2QV94AA5FO" accepted.
+2024-04-12 21:10:22.443 +07:00 [DBG] Connection id "0HN2QV94AA5FO" started.
+2024-04-12 21:10:22.449 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-12 21:10:22.449 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-12 21:10:22.450 +07:00 [DBG] Connection id "0HN2QV94AA5FM" stopped.
+2024-04-12 21:10:22.450 +07:00 [DBG] Connection id "0HN2QV94AA5FN" stopped.
+2024-04-12 21:10:22.450 +07:00 [DBG] Connection id "0HN2QV94AA5FM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-12 21:10:22.450 +07:00 [DBG] Connection id "0HN2QV94AA5FN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-12 21:10:22.455 +07:00 [DBG] Connection 0HN2QV94AA5FO established using the following protocol: "Tls13"
+2024-04-12 21:10:22.538 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-12 21:10:22.650 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-12 21:10:22.682 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-04-12 21:10:22.683 +07:00 [DBG] Request did not match any endpoints
+2024-04-12 21:10:22.729 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 193.7465ms
+2024-04-12 21:10:22.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-12 21:10:22.751 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-12 21:10:22.751 +07:00 [DBG] Request did not match any endpoints
+2024-04-12 21:10:22.849 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-12 21:10:22.875 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-12 21:10:22.875 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 129.7228ms
+2024-04-12 21:10:22.876 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-12 21:10:22.876 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-12 21:10:22.876 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-12 21:10:22.876 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-04-12 21:10:22.876 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-04-12 21:10:22.876 +07:00 [DBG] Request did not match any endpoints
+2024-04-12 21:10:22.876 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-04-12 21:10:22.876 +07:00 [DBG] Request did not match any endpoints
+2024-04-12 21:10:22.876 +07:00 [DBG] Request did not match any endpoints
+2024-04-12 21:10:22.905 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-12 21:10:22.906 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 29.8269ms
+2024-04-12 21:10:22.911 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-12 21:10:22.911 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 35.0998ms
+2024-04-12 21:10:22.935 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-12 21:10:22.935 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 59.6458ms
+2024-04-12 21:10:22.958 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-12 21:10:22.973 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-12 21:10:22.977 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 4.0361ms
+2024-04-12 21:10:22.995 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.6219ms
+2024-04-12 21:10:23.354 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-12 21:10:23.354 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-12 21:10:23.354 +07:00 [DBG] Request did not match any endpoints
+2024-04-12 21:10:23.553 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.8833ms
+2024-04-12 23:56:28.276 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-12 23:56:28.330 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-12 23:56:28.334 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-12 23:56:28.340 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 23:56:28.343 +07:00 [INF] Hosting environment: Development
+2024-04-12 23:56:28.344 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-12 23:56:33.412 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-12 23:56:33.569 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 159.0367ms
+2024-04-12 23:56:33.587 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-12 23:56:33.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 82.1165ms
+2024-04-12 23:56:33.670 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-12 23:56:33.670 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-12 23:56:33.670 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-12 23:56:33.697 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-12 23:56:33.697 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-12 23:56:33.697 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-12 23:56:33.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 26.8523ms
+2024-04-12 23:56:33.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 26.9734ms
+2024-04-12 23:56:33.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 26.8366ms
+2024-04-12 23:56:33.714 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-12 23:56:33.714 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-12 23:56:33.718 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 3.9837ms
+2024-04-12 23:56:33.747 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.1116ms
+2024-04-12 23:56:33.862 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-12 23:56:34.015 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.0899ms
+2024-04-13 00:37:34.793 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 00:37:35.023 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 00:37:35.072 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 00:37:35.074 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 00:37:35.079 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 00:37:35.082 +07:00 [INF] Hosting environment: Development
+2024-04-13 00:37:35.084 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 00:37:39.957 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 00:37:40.106 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 151.9494ms
+2024-04-13 00:37:40.121 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 00:37:40.199 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 78.3311ms
+2024-04-13 00:37:40.205 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 00:37:40.206 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 00:37:40.206 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 00:37:40.207 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 00:37:40.223 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 17.3571ms
+2024-04-13 00:37:40.253 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 00:37:40.253 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 00:37:40.253 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 47.9490ms
+2024-04-13 00:37:40.253 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 46.6418ms
+2024-04-13 00:37:40.257 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 00:37:40.259 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 00:37:40.260 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 54.1359ms
+2024-04-13 00:37:40.303 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.3215ms
+2024-04-13 00:37:40.474 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 00:37:40.559 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.2610ms
+2024-04-13 00:37:44.567 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-13 00:37:45.068 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 00:37:45.074 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-13 00:37:45.078 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-13 00:37:45.079 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAll - - - 401 0 - 512.1632ms
+2024-04-13 00:38:34.680 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-13 00:38:34.695 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 00:38:34.696 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-13 00:38:34.698 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-13 00:38:34.713 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/GetAll - - - 401 0 - 32.3760ms
+2024-04-13 00:45:40.719 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-13 00:45:40.725 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: Emptyheader
+2024-04-13 00:45:40.726 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-13 00:45:40.728 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-13 00:45:40.729 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/GetAll - - - 401 0 - 9.2286ms
+2024-04-13 00:46:34.391 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 00:46:34.594 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 00:46:34.656 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 00:46:34.658 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 00:46:34.663 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 00:46:34.666 +07:00 [INF] Hosting environment: Development
+2024-04-13 00:46:34.668 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 00:46:39.965 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 00:46:40.100 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 137.8144ms
+2024-04-13 00:46:40.108 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 00:46:40.180 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 71.5082ms
+2024-04-13 00:46:40.182 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 00:46:40.183 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 00:46:40.183 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 00:46:40.183 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 00:46:40.187 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 4.4659ms
+2024-04-13 00:46:40.208 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 00:46:40.208 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 00:46:40.208 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 25.8268ms
+2024-04-13 00:46:40.208 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 25.3458ms
+2024-04-13 00:46:40.221 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 00:46:40.222 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 00:46:40.222 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 39.0635ms
+2024-04-13 00:46:40.253 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.9290ms
+2024-04-13 00:46:40.378 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 00:46:40.467 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.2666ms
+2024-04-13 00:47:18.804 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-13 00:47:21.242 +07:00 [INF] Executed DbCommand (126ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString), @__password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__username_0 AND [t].[password] = @__password_1
+2024-04-13 00:47:21.383 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-13 00:47:21.405 +07:00 [INF] Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-13 00:47:21.433 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+2024-04-13 00:47:21.488 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[YTB_API.Modal.Customermodal, YTB_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-13 00:47:21.540 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.GetAll (YTB_API) in 130.503ms
+2024-04-13 00:47:21.541 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-13 00:47:21.549 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/GetAll - - - 200 - application/json;+charset=utf-8 2744.8797ms
+2024-04-13 00:50:43.860 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 00:50:44.103 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 00:50:44.173 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 00:50:44.175 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 00:50:44.181 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 00:50:44.184 +07:00 [INF] Hosting environment: Development
+2024-04-13 00:50:44.185 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 00:50:50.581 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 00:50:50.729 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 149.6859ms
+2024-04-13 00:50:50.739 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 00:50:50.863 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 123.8996ms
+2024-04-13 00:50:50.867 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 00:50:50.868 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 00:50:50.868 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 00:50:50.868 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 00:50:50.872 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 3.8150ms
+2024-04-13 00:50:50.891 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 00:50:50.891 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 00:50:50.891 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 23.5902ms
+2024-04-13 00:50:50.891 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 23.9434ms
+2024-04-13 00:50:50.892 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 00:50:50.892 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 24.1069ms
+2024-04-13 00:50:50.902 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 00:50:50.939 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.0450ms
+2024-04-13 00:50:51.050 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 00:50:51.189 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.6675ms
+2024-04-13 00:50:56.505 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-13 00:50:56.725 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 00:50:56.734 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-13 00:50:56.758 +07:00 [INF] Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-13 00:50:57.823 +07:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+2024-04-13 00:50:57.985 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[YTB_API.Modal.Customermodal, YTB_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-13 00:50:58.028 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.GetAll (YTB_API) in 1262.6705ms
+2024-04-13 00:50:58.029 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-13 00:50:58.041 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAll - - - 200 - application/json;+charset=utf-8 1535.4482ms
+2024-04-13 00:51:03.526 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-13 00:51:03.534 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 00:51:03.539 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-13 00:51:03.544 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-13 00:51:03.545 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 18.4185ms
+2024-04-13 00:52:37.195 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-13 00:52:37.363 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YTB_API.Helper.BasicAuthenticationHandler.HandleAuthenticateAsync() in D:\C SHARP\YTB_API\YTB_API\Helper\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 00:52:37.376 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 500 - text/plain;+charset=utf-8 180.2648ms
+2024-04-13 00:53:07.425 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-13 00:53:07.553 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString), @__password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__username_0 AND [t].[password] = @__password_1
+2024-04-13 00:53:07.571 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-13 00:53:07.585 +07:00 [INF] Route matched with {action = "Getbycode", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Getbycode(System.String) on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-13 00:53:07.657 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+WHERE [t].[Code] = @__p_0
+2024-04-13 00:53:07.662 +07:00 [INF] Executing OkObjectResult, writing value of type 'YTB_API.Modal.Customermodal'.
+2024-04-13 00:53:07.662 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.Getbycode (YTB_API) in 77.3538ms
+2024-04-13 00:53:07.662 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-13 00:53:07.663 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 200 - application/json;+charset=utf-8 237.4457ms
+2024-04-13 00:53:29.689 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-13 00:53:29.764 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString), @__password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__username_0 AND [t].[password] = @__password_1
+2024-04-13 00:53:29.765 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-13 00:53:29.765 +07:00 [INF] Route matched with {action = "Getbycode", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Getbycode(System.String) on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-13 00:53:29.775 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+WHERE [t].[Code] = @__p_0
+2024-04-13 00:53:29.776 +07:00 [INF] Executing OkObjectResult, writing value of type 'YTB_API.Modal.Customermodal'.
+2024-04-13 00:53:29.776 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.Getbycode (YTB_API) in 11.4057ms
+2024-04-13 00:53:29.776 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-13 00:53:29.777 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 200 - application/json;+charset=utf-8 87.3765ms
+2024-04-13 10:31:26.689 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 10:31:27.136 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 10:31:27.202 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 10:31:27.204 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 10:31:27.208 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 10:31:27.210 +07:00 [INF] Hosting environment: Development
+2024-04-13 10:31:27.212 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 10:31:29.575 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 10:31:29.781 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 208.6176ms
+2024-04-13 10:31:29.797 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 10:31:29.900 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 102.9145ms
+2024-04-13 10:31:29.900 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 10:31:29.901 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 10:31:29.901 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 10:31:29.941 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 10:31:29.942 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 40.7720ms
+2024-04-13 10:31:29.946 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 10:31:29.946 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 45.6610ms
+2024-04-13 10:31:29.950 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 10:31:29.957 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 10:31:29.979 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 10:31:29.979 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 21.8422ms
+2024-04-13 10:31:29.979 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 78.8907ms
+2024-04-13 10:31:30.029 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.7290ms
+2024-04-13 10:31:30.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 10:31:30.378 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 214.0798ms
+2024-04-13 10:31:50.404 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 10:31:50.408 +07:00 [INF] CORS policy execution successful.
+2024-04-13 10:31:51.356 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 10:31:51.364 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:31:51.421 +07:00 [INF] Route matched with {action = "GetActionResult", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActionResult(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 10:31:55.896 +07:00 [INF] Executed DbCommand (171ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 10:31:56.689 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API) in 5259.2453ms
+2024-04-13 10:31:56.692 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:31:56.777 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GetActionResult(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 10:31:56.800 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 6396.3854ms
+2024-04-13 10:32:22.567 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 10:32:22.791 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 10:32:22.850 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 10:32:22.853 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 10:32:22.860 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 10:32:22.862 +07:00 [INF] Hosting environment: Development
+2024-04-13 10:32:22.864 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 10:32:25.560 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 10:32:25.759 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 201.2768ms
+2024-04-13 10:32:25.775 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 10:32:25.875 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 100.4471ms
+2024-04-13 10:32:25.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 10:32:25.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 10:32:25.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 10:32:25.882 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 10:32:25.920 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 38.6021ms
+2024-04-13 10:32:25.930 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 10:32:25.995 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 10:32:25.995 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 113.8566ms
+2024-04-13 10:32:25.995 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 10:32:25.995 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 114.7754ms
+2024-04-13 10:32:26.013 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 10:32:26.013 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 131.7293ms
+2024-04-13 10:32:26.037 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 107.0353ms
+2024-04-13 10:32:26.206 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 10:32:26.337 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.2879ms
+2024-04-13 10:32:43.325 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 10:32:43.329 +07:00 [INF] CORS policy execution successful.
+2024-04-13 10:32:43.666 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 10:32:43.674 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:32:43.720 +07:00 [INF] Route matched with {action = "GetActionResult", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActionResult(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 10:32:46.296 +07:00 [INF] Executed DbCommand (123ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 10:32:46.594 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API) in 2861.5755ms
+2024-04-13 10:32:46.596 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:32:46.653 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GetActionResult(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 10:32:46.713 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 3387.4418ms
+2024-04-13 10:34:39.446 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 10:34:39.699 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 10:34:39.765 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 10:34:39.766 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 10:34:39.770 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 10:34:39.772 +07:00 [INF] Hosting environment: Development
+2024-04-13 10:34:39.773 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 10:34:40.182 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 10:34:40.328 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 149.1034ms
+2024-04-13 10:34:40.340 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 10:34:40.442 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 102.2480ms
+2024-04-13 10:34:40.448 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 10:34:40.448 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 10:34:40.448 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 10:34:40.449 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 10:34:40.454 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 6.2979ms
+2024-04-13 10:34:40.479 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 10:34:40.479 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 10:34:40.479 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 29.8956ms
+2024-04-13 10:34:40.479 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 31.4761ms
+2024-04-13 10:34:40.483 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 10:34:40.483 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 35.4858ms
+2024-04-13 10:34:40.498 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 10:34:40.546 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.5005ms
+2024-04-13 10:34:40.707 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 10:34:40.867 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.4572ms
+2024-04-13 10:35:44.525 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 10:35:44.537 +07:00 [INF] CORS policy execution successful.
+2024-04-13 10:35:44.871 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 10:35:44.879 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:35:44.925 +07:00 [INF] Route matched with {action = "GetActionResult", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActionResult(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 10:35:47.479 +07:00 [INF] Executed DbCommand (108ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 10:35:47.769 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API) in 2835.3245ms
+2024-04-13 10:35:47.771 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:35:47.834 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GetActionResult(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 10:35:47.853 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 3327.4952ms
+2024-04-13 10:38:46.393 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 10:38:46.578 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 10:38:46.660 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 10:38:46.661 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 10:38:46.665 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 10:38:46.667 +07:00 [INF] Hosting environment: Development
+2024-04-13 10:38:46.668 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 10:38:49.729 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 10:38:49.880 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 152.5145ms
+2024-04-13 10:38:49.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 10:38:49.989 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 10:38:49.989 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 98.4986ms
+2024-04-13 10:38:49.990 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 10:38:49.990 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 10:38:50.023 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 10:38:50.023 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 10:38:50.024 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 35.2729ms
+2024-04-13 10:38:50.024 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 34.2430ms
+2024-04-13 10:38:50.030 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 10:38:50.030 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 40.6643ms
+2024-04-13 10:38:50.066 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 10:38:50.066 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 10:38:50.072 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 6.4489ms
+2024-04-13 10:38:50.107 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.5890ms
+2024-04-13 10:38:50.257 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 10:38:50.382 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.4313ms
+2024-04-13 10:39:12.922 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 49
+2024-04-13 10:39:12.927 +07:00 [INF] CORS policy execution successful.
+2024-04-13 10:39:13.259 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 10:39:13.265 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:39:13.312 +07:00 [INF] Route matched with {action = "GetActionResult", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActionResult(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 10:39:13.431 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-04-13 10:39:13.450 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API) in 129.6661ms
+2024-04-13 10:39:13.452 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:39:13.455 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 49 - 400 - application/problem+json;+charset=utf-8 532.4791ms
+2024-04-13 10:39:27.792 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 10:39:27.795 +07:00 [INF] CORS policy execution successful.
+2024-04-13 10:39:27.817 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 10:39:27.817 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:39:27.818 +07:00 [INF] Route matched with {action = "GetActionResult", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActionResult(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 10:39:30.164 +07:00 [INF] Executed DbCommand (103ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 10:39:30.454 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API) in 2635.67ms
+2024-04-13 10:39:30.456 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GetActionResult (YTB_API)'
+2024-04-13 10:39:30.522 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GetActionResult(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 10:39:30.540 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 2747.9889ms
+2024-04-13 11:02:54.084 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 11:02:54.289 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 11:02:54.332 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 11:02:54.334 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 11:02:54.337 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 11:02:54.339 +07:00 [INF] Hosting environment: Development
+2024-04-13 11:02:54.341 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 11:02:57.145 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 11:02:57.279 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 135.8785ms
+2024-04-13 11:02:57.294 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 11:02:57.393 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 98.7123ms
+2024-04-13 11:02:57.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 11:02:57.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 11:02:57.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 11:02:57.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 11:02:57.408 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 8.8202ms
+2024-04-13 11:02:57.436 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 11:02:57.436 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 11:02:57.436 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 37.6680ms
+2024-04-13 11:02:57.436 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 37.3313ms
+2024-04-13 11:02:57.439 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 11:02:57.439 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 39.9092ms
+2024-04-13 11:02:57.449 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 11:02:57.487 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.2108ms
+2024-04-13 11:02:57.652 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 11:02:57.762 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.5672ms
+2024-04-13 11:03:13.371 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 11:03:13.375 +07:00 [INF] CORS policy execution successful.
+2024-04-13 11:03:13.723 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 11:03:13.734 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GenerrateToken (YTB_API)'
+2024-04-13 11:03:13.781 +07:00 [INF] Route matched with {action = "GenerrateToken", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerrateToken(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 11:03:16.296 +07:00 [INF] Executed DbCommand (158ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 11:03:16.614 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GenerrateToken (YTB_API) in 2821.7848ms
+2024-04-13 11:03:16.617 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GenerrateToken (YTB_API)'
+2024-04-13 11:03:16.686 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GenerrateToken(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 11:03:16.707 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 3336.0696ms
+2024-04-13 11:04:02.758 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-13 11:04:02.779 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 11:04:02.784 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-13 11:04:02.793 +07:00 [INF] Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-13 11:04:02.897 +07:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+2024-04-13 11:04:03.000 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[YTB_API.Modal.Customermodal, YTB_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-13 11:04:03.082 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.GetAll (YTB_API) in 289.0935ms
+2024-04-13 11:04:03.082 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-13 11:04:03.085 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAll - - - 200 - application/json;+charset=utf-8 327.0168ms
+2024-04-13 11:04:19.802 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 11:04:19.803 +07:00 [INF] CORS policy execution successful.
+2024-04-13 11:04:19.810 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 11:04:19.810 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GenerrateToken (YTB_API)'
+2024-04-13 11:04:19.810 +07:00 [INF] Route matched with {action = "GenerrateToken", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerrateToken(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 11:04:19.954 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 11:04:20.006 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GenerrateToken (YTB_API) in 196.3505ms
+2024-04-13 11:04:20.007 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GenerrateToken (YTB_API)'
+2024-04-13 11:04:20.017 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GenerrateToken(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 11:04:20.021 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 219.2538ms
+2024-04-13 11:11:03.267 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 11:11:03.457 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 11:11:03.507 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 11:11:03.509 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 11:11:03.513 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 11:11:03.515 +07:00 [INF] Hosting environment: Development
+2024-04-13 11:11:03.516 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 11:11:06.223 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 11:11:06.361 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 138.6033ms
+2024-04-13 11:11:06.370 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 11:11:06.510 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 11:11:06.510 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 11:11:06.510 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 11:11:06.527 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 157.0490ms
+2024-04-13 11:11:06.568 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 11:11:06.570 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 11:11:06.581 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 11:11:06.581 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 11:11:06.581 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 71.0799ms
+2024-04-13 11:11:06.581 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 71.1279ms
+2024-04-13 11:11:06.605 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 36.3394ms
+2024-04-13 11:11:06.614 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 11:11:06.615 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 104.7725ms
+2024-04-13 11:11:06.637 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.6395ms
+2024-04-13 11:11:06.776 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 11:11:06.888 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.5786ms
+2024-04-13 11:11:23.139 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 11:11:23.144 +07:00 [INF] CORS policy execution successful.
+2024-04-13 11:11:23.469 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 11:11:23.477 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GenerateToken (YTB_API)'
+2024-04-13 11:11:23.533 +07:00 [INF] Route matched with {action = "GenerateToken", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateToken(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 11:11:26.033 +07:00 [INF] Executed DbCommand (108ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 11:11:26.341 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GenerateToken (YTB_API) in 2799.2297ms
+2024-04-13 11:11:26.344 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GenerateToken (YTB_API)'
+2024-04-13 11:11:26.413 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at YTB_API.Controllers.AuthorizeController.GenerateToken(UserCred userCred) in D:\C SHARP\YTB_API\YTB_API\Controllers\AuthorizeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-13 11:11:26.471 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 500 - text/plain;+charset=utf-8 3331.8297ms
+2024-04-13 11:11:46.845 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 11:11:47.060 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-13 11:11:47.107 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-13 11:11:47.108 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-13 11:11:47.113 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-13 11:11:47.114 +07:00 [INF] Hosting environment: Development
+2024-04-13 11:11:47.116 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-13 11:11:49.805 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-13 11:11:49.951 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 149.1033ms
+2024-04-13 11:11:49.965 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-13 11:11:50.061 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 96.1198ms
+2024-04-13 11:11:50.066 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-13 11:11:50.067 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-13 11:11:50.067 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-13 11:11:50.067 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-13 11:11:50.079 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 12.4577ms
+2024-04-13 11:11:50.107 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-13 11:11:50.107 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-13 11:11:50.108 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 41.7064ms
+2024-04-13 11:11:50.108 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-13 11:11:50.108 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 40.9321ms
+2024-04-13 11:11:50.108 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 41.0170ms
+2024-04-13 11:11:50.118 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-13 11:11:50.156 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.0632ms
+2024-04-13 11:11:50.321 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-13 11:11:50.463 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.9200ms
+2024-04-13 11:12:05.399 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47
+2024-04-13 11:12:05.406 +07:00 [INF] CORS policy execution successful.
+2024-04-13 11:12:05.742 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-13 11:12:05.749 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.AuthorizeController.GenerateToken (YTB_API)'
+2024-04-13 11:12:05.798 +07:00 [INF] Route matched with {action = "GenerateToken", controller = "Authorize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateToken(YTB_API.Modal.UserCred) on controller YTB_API.Controllers.AuthorizeController (YTB_API).
+2024-04-13 11:12:08.237 +07:00 [INF] Executed DbCommand (110ms) [Parameters=[@__userCred_username_0='?' (Size = 50) (DbType = AnsiString), @__userCred_password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__userCred_username_0 AND [t].[password] = @__userCred_password_1
+2024-04-13 11:12:08.745 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-13 11:12:08.757 +07:00 [INF] Executed action YTB_API.Controllers.AuthorizeController.GenerateToken (YTB_API) in 2950.1469ms
+2024-04-13 11:12:08.759 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.AuthorizeController.GenerateToken (YTB_API)'
+2024-04-13 11:12:08.775 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Authorize/GenerateToken application/json 47 - 200 - text/plain;+charset=utf-8 3376.2212ms
+2024-04-15 09:24:51.402 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 09:24:51.805 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-15 09:24:51.873 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-15 09:24:51.874 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-15 09:24:51.879 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-15 09:24:51.881 +07:00 [INF] Hosting environment: Development
+2024-04-15 09:24:51.883 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-15 09:24:53.332 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-15 09:24:53.616 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 285.5093ms
+2024-04-15 09:24:53.634 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-15 09:24:53.791 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 157.0608ms
+2024-04-15 09:24:53.797 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-15 09:24:53.797 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-15 09:24:53.798 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-15 09:24:53.798 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 09:24:53.809 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 11.1226ms
+2024-04-15 09:24:53.848 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-15 09:24:53.848 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 51.2029ms
+2024-04-15 09:24:53.859 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-15 09:24:53.861 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-15 09:24:53.861 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 63.5369ms
+2024-04-15 09:24:53.881 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-15 09:24:53.882 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 84.3923ms
+2024-04-15 09:24:53.973 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 114.1175ms
+2024-04-15 09:24:54.113 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-15 09:24:54.341 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.8606ms
+2024-04-15 09:25:01.145 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-15 09:25:01.675 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-15 09:25:01.680 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-15 09:25:01.704 +07:00 [INF] Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-15 09:25:03.313 +07:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+2024-04-15 09:25:03.432 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[YTB_API.Modal.Customermodal, YTB_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-15 09:25:03.457 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.GetAll (YTB_API) in 1748.4426ms
+2024-04-15 09:25:03.458 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-15 09:25:03.466 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAll - - - 200 - application/json;+charset=utf-8 2320.8905ms
+2024-04-15 09:25:18.285 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-15 09:25:18.289 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-15 09:25:18.293 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-15 09:25:18.310 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-15 09:25:18.311 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 25.1951ms
+2024-04-15 09:25:47.830 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-15 09:25:47.999 +07:00 [INF] Executed DbCommand (83ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString), @__password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__username_0 AND [t].[password] = @__password_1
+2024-04-15 09:25:48.016 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-15 09:25:48.025 +07:00 [INF] Route matched with {action = "Getbycode", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Getbycode(System.String) on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-15 09:25:48.082 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+WHERE [t].[Code] = @__p_0
+2024-04-15 09:25:48.085 +07:00 [INF] Executing OkObjectResult, writing value of type 'YTB_API.Modal.Customermodal'.
+2024-04-15 09:25:48.086 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.Getbycode (YTB_API) in 61.6185ms
+2024-04-15 09:25:48.086 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-15 09:25:48.087 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 200 - application/json;+charset=utf-8 256.4685ms
+2024-04-15 09:25:55.867 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-15 09:25:55.870 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-15 09:25:55.871 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-15 09:25:55.874 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-15 09:25:55.874 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 7.7502ms
+2024-04-15 09:25:56.672 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-15 09:25:56.676 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-15 09:25:56.676 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-15 09:25:56.678 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-15 09:25:56.679 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 6.4889ms
+2024-04-15 09:25:57.307 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-15 09:25:57.309 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-15 09:25:57.309 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-15 09:25:57.311 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-15 09:25:57.311 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 3.5862ms
+2024-04-15 09:26:01.486 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-15 09:26:01.488 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-15 09:26:01.488 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-15 09:26:01.491 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-15 09:26:01.491 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 4.9261ms
+2024-04-19 16:55:39.315 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-19 16:55:39.631 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-19 16:55:39.714 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-19 16:55:39.716 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-19 16:55:39.720 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 16:55:39.722 +07:00 [INF] Hosting environment: Development
+2024-04-19 16:55:39.724 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-19 16:55:43.922 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-19 16:55:44.111 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 191.6586ms
+2024-04-19 16:55:44.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-19 16:55:44.229 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 106.3162ms
+2024-04-19 16:55:44.236 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-19 16:55:44.237 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-19 16:55:44.237 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-19 16:55:44.274 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-19 16:55:44.281 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-19 16:55:44.281 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-19 16:55:44.281 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 44.0060ms
+2024-04-19 16:55:44.281 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 45.0966ms
+2024-04-19 16:55:44.301 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-19 16:55:44.314 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 13.5731ms
+2024-04-19 16:55:44.316 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-19 16:55:44.316 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 78.9251ms
+2024-04-19 16:55:44.361 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.6045ms
+2024-04-19 16:55:44.532 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-19 16:55:44.559 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-19 16:55:44.560 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-19 16:55:44.560 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 1.3683ms
+2024-04-19 16:55:44.776 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 244.3804ms
+2024-04-19 16:56:25.347 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - -
+2024-04-19 16:56:25.822 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 16:56:25.828 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 16:56:25.831 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-19 16:56:25.840 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/Getbycode?code=1 - - - 401 0 - 492.6037ms
+2024-04-19 16:56:55.427 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1&Authorization=YWRtaW46VGVzdA== - -
+2024-04-19 16:56:57.132 +07:00 [INF] Executed DbCommand (112ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString), @__password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__username_0 AND [t].[password] = @__password_1
+2024-04-19 16:56:57.209 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-19 16:56:57.225 +07:00 [INF] Route matched with {action = "Getbycode", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Getbycode(System.String) on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-19 16:56:57.281 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+WHERE [t].[Code] = @__p_0
+2024-04-19 16:56:57.317 +07:00 [INF] Executing OkObjectResult, writing value of type 'YTB_API.Modal.Customermodal'.
+2024-04-19 16:56:57.338 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.Getbycode (YTB_API) in 109.5562ms
+2024-04-19 16:56:57.338 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-19 16:56:57.343 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1&Authorization=YWRtaW46VGVzdA== - - - 200 - application/json;+charset=utf-8 1915.5294ms
+2024-04-19 17:00:22.208 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1&Authorization=basic.YWRtaW46VGVzdA== - -
+2024-04-19 17:00:22.263 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@__username_0='?' (Size = 50) (DbType = AnsiString), @__password_1='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[code], [t].[email], [t].[isactive], [t].[name], [t].[password], [t].[phone], [t].[role]
+FROM [tbl_user] AS [t]
+WHERE [t].[code] = @__username_0 AND [t].[password] = @__password_1
+2024-04-19 17:00:22.266 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-19 17:00:22.266 +07:00 [INF] Route matched with {action = "Getbycode", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Getbycode(System.String) on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-19 17:00:22.275 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+WHERE [t].[Code] = @__p_0
+2024-04-19 17:00:22.276 +07:00 [INF] Executing OkObjectResult, writing value of type 'YTB_API.Modal.Customermodal'.
+2024-04-19 17:00:22.276 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.Getbycode (YTB_API) in 9.8479ms
+2024-04-19 17:00:22.276 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.Getbycode (YTB_API)'
+2024-04-19 17:00:22.277 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/Customer/Getbycode?code=1&Authorization=basic.YWRtaW46VGVzdA== - - - 200 - application/json;+charset=utf-8 69.0734ms
+2024-04-19 17:02:16.030 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-19 17:02:16.050 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 17:02:16.050 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-19 17:02:16.056 +07:00 [INF] Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-19 17:02:16.138 +07:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+2024-04-19 17:02:16.150 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[YTB_API.Modal.Customermodal, YTB_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-19 17:02:16.150 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.GetAll (YTB_API) in 94.6689ms
+2024-04-19 17:02:16.151 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-19 17:02:16.151 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAll - - - 200 - application/json;+charset=utf-8 121.1155ms
+2024-04-19 17:02:37.988 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Customer/Create application/json 149
+2024-04-19 17:02:37.997 +07:00 [INF] CORS policy execution successful.
+2024-04-19 17:02:37.999 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 17:02:37.999 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 17:02:38.002 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-19 17:02:38.003 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Customer/Create application/json 149 - 401 0 - 15.8874ms
+2024-04-19 17:02:57.953 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Customer/Create application/json 149
+2024-04-19 17:02:57.988 +07:00 [INF] CORS policy execution successful.
+2024-04-19 17:02:57.991 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 17:02:57.991 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 17:02:57.992 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-19 17:02:57.993 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Customer/Create application/json 149 - 401 0 - 40.7962ms
+2024-04-19 17:03:26.296 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Customer/Create application/json 146
+2024-04-19 17:03:26.297 +07:00 [INF] CORS policy execution successful.
+2024-04-19 17:03:26.299 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 17:03:26.299 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 17:03:26.302 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-19 17:03:26.302 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Customer/Create application/json 146 - 401 0 - 5.7895ms
+2024-04-19 17:04:06.645 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7153/api/Customer/Create?Authorization=basic%20YWRtaW46VGVzdA== application/json 40
+2024-04-19 17:04:06.648 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 17:04:06.648 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 17:04:06.651 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-19 17:04:06.651 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7153/api/Customer/Create?Authorization=basic%20YWRtaW46VGVzdA== application/json 40 - 401 0 - 6.0440ms
+2024-04-19 17:04:14.973 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7153/api/Customer/Create?Authorization=%20YWRtaW46VGVzdA== application/json 40
+2024-04-19 17:04:16.699 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-19 17:04:16.699 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 17:04:16.701 +07:00 [INF] AuthenticationScheme: BasicAuthentication was challenged.
+2024-04-19 17:04:16.701 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7153/api/Customer/Create?Authorization=%20YWRtaW46VGVzdA== application/json 40 - 401 0 - 1727.8474ms
+2024-04-20 11:08:03.345 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-20 11:08:03.589 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-04-20 11:08:03.662 +07:00 [INF] Now listening on: https://localhost:7153
+2024-04-20 11:08:03.665 +07:00 [INF] Now listening on: http://localhost:5054
+2024-04-20 11:08:03.672 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-20 11:08:03.675 +07:00 [INF] Hosting environment: Development
+2024-04-20 11:08:03.677 +07:00 [INF] Content root path: D:\C SHARP\YTB_API\YTB_API
+2024-04-20 11:08:04.979 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-20 11:08:05.266 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 291.5367ms
+2024-04-20 11:08:05.299 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-20 11:08:05.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-20 11:08:05.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-20 11:08:05.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-20 11:08:05.420 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 120.4955ms
+2024-04-20 11:08:05.457 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-20 11:08:05.457 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-20 11:08:05.457 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 41.8932ms
+2024-04-20 11:08:05.457 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 41.8969ms
+2024-04-20 11:08:05.479 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-20 11:08:05.480 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-20 11:08:05.480 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-20 11:08:05.480 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 65.6120ms
+2024-04-20 11:08:05.486 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 7.5832ms
+2024-04-20 11:08:05.542 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.6702ms
+2024-04-20 11:08:05.690 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-20 11:08:05.933 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 242.3953ms
+2024-04-20 11:08:13.907 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAll - -
+2024-04-20 11:08:14.602 +07:00 [INF] BasicAuthentication was not authenticated. Failure message: No header Found !
+2024-04-20 11:08:14.608 +07:00 [INF] Executing endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-20 11:08:14.635 +07:00 [INF] Route matched with {action = "GetAll", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller YTB_API.Controllers.CustomerController (YTB_API).
+2024-04-20 11:08:16.868 +07:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Code], [t].[Creditlimit], [t].[Email], [t].[IsActive], [t].[Name], [t].[Phone], [t].[Taxcode]
+FROM [tbl_customer] AS [t]
+2024-04-20 11:08:16.993 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[YTB_API.Modal.Customermodal, YTB_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-20 11:08:17.020 +07:00 [INF] Executed action YTB_API.Controllers.CustomerController.GetAll (YTB_API) in 2380.6492ms
+2024-04-20 11:08:17.021 +07:00 [INF] Executed endpoint 'YTB_API.Controllers.CustomerController.GetAll (YTB_API)'
+2024-04-20 11:08:17.031 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAll - - - 200 - application/json;+charset=utf-8 3123.1630ms
